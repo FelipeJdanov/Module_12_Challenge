@@ -19,9 +19,9 @@ The dataset shows details about loans made. The prediction should read the param
 | 77534	| 16300.0	| 10.068	| 75300	| 0.601594	| 10	| 2	| 45300	| 1 |
 | 77535	| 15600.0	| 9.742	| 72300	| 0.585062	| 9	| 2	| 42300	| 1 |
 
-In total at the data set, is identified:
-75036 healthy loans, flagged as 0 
-2500 risk loans, flagged as 1
+In total at the data set, is identified: </br>
+75036 healthy loans, flagged as 0 and </br>
+2500 risk loans, flagged as 1 </br>
 
 To differentiate healthy loans from risky loans. First, the data set is divided into training and testing.
 After, the training data is used to train the model to identify the desired results. For this, the LogisticRegression function is used, which receives the training data and creates a return model, this model is used receiving the test data to generate a prediction.
